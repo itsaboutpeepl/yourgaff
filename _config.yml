@@ -1,0 +1,54 @@
+title: Yourgaff
+baseurl: "/yourgaff" # the subpath of your site, e.g. /blog
+url: "https://itsaboutpeepl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+host: 0.0.0.0
+
+exclude:
+  - .browserlistrc
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - node_modules/
+  - README.md
+  - script/
+  - ssl/
+  - vendor/
+
+sass:
+  sourcemap: never
+  load_paths:
+    - static/vendor/
+
+data:
+  theme:
+    colors:
+      - blue
+      - indigo
+      - purple
+      - pink
+      - red
+      - orange
+      - yellow
+      - green
+      - teal
+      - cyan
+      - gray
+    theme_colors:
+      - primary
+      - secondary
+      - success
+      - info
+      - warning
+      - danger
+      - light
+      - dark
+    button_styles:
+      - ''
+      - 'outline-'
+    button_sizes:
+      - '-sm'
+      - ''
+      - '-lg'

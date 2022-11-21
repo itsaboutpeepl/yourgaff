@@ -1,0 +1,173 @@
+// Color system
+
+$color-yg-teal: #00c6bc;
+$color-yg-seafoam: #f0fcfb;
+$color-yg-midnight: #162838;
+
+$blue-900: $color-yg-midnight;
+
+$teal: $color-yg-teal;
+$teal-100: $color-yg-seafoam;
+$teal-200: mix($color-yg-seafoam, $color-yg-teal, 75%);
+$teal-300: mix($color-yg-seafoam, $color-yg-teal, 50%);
+$teal-400: mix($color-yg-seafoam, $color-yg-teal, 25%);
+$teal-500: $color-yg-teal;
+
+$primary: $color-yg-teal;
+$light: $color-yg-seafoam;
+$dark: $color-yg-midnight;
+
+// Options
+
+$enable-shadows: true;
+$enable-negative-margins: true;
+
+// Gradient
+
+// Spacing
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 8
+);
+
+// Position
+
+// Body
+
+// Utilities maps
+
+// Links
+
+$link-color: darken($primary, 13%);
+
+// Paragraphs
+
+// Grid breakpoints
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Grid containers
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+// Grid columns
+
+// Container padding
+
+// Components
+
+// Typography
+
+$font-family-sans-serif: 'DM Sans', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * .875;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $font-size-sm,
+  8: $font-size-base * 0.75,
+  9: $font-size-base * 0.66,
+  10: $font-size-base * 0.5
+);
+
+$headings-font-weight: bold;
+$headings-line-height: 1.1;
+
+$display-font-weight: bold;
+
+$lead-font-weight: bold;
+
+// Tables
+
+// Buttons + Forms
+
+// Buttons
+
+$btn-font-weight: bold;
+
+// Forms
+
+$form-label-font-weight: bold;
+
+// Form validation
+
+// Z-index master list
+
+// Navs
+
+// Navbar
+
+// Dropdowns
+
+// Pagination
+
+// Placeholders
+
+// Cards
+
+// Accordion
+
+// Tooltips
+
+// Popovers
+
+// Toasts
+
+// Badges
+
+// Modals
+
+// Alerts
+
+// Progress bars
+
+// List group
+
+// Image thumbnails
+
+// Figures
+
+// Breadcrumbs
+
+// Carousel
+
+// Spinners
+
+// Close
+
+// Offcanvas
+
+// Code

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/static/css/yourgaff.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/static/img/apple-touch-icon.png' | relative_url }}">
+    <script type="module">document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js');</script>
+</head>
+<body>
+    <nav class="navbar bg-white py-4 border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+                <img src="{{ '/static/img/header_logo.png' | relative_url }}" alt="Yourgaff" width="321" height="70">
+            </a>
+        </div>
+    </nav>
+    {{ content }}
+    <div class="site-footer py-5">
+        <div class="container">
+            <div class="row mb-n4">
+                <div class="col-sm-6 col-md-4 col-lg-3 fs-5 mb-4 me-sm-auto">
+                    <h1 class="h3 mb-3">Contact</h2>
+                    <p><a href="mailto:hello@yourgaff.co.uk">hello@yourgaff.co.uk</a></p>
+                    <p><a href="tel:00441244319206">01244 319206</a></p>
+                    <p class="mb-0">78 Hoole Road, Chester, CH2 3NT</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fs-7 mb-4 d-flex flex-column">
+                    <img src="{{ '/static/img/certificates.png' | relative_url }}" width="572" height="74" alt="Property Redress Scheme, Client Money Protect, and ICO" class="d-block mb-4">
+                    <p class="mt-auto mb-0 text-sm-end">© Yourgaff Ltd 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ '/static/vendor/jquery/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/static/vendor/bootstrap/js/bootstrap.min.js' | relative_url }}"></script>
+    <script src="{{ '/static/js/yourgaff.js' | relative_url }}"></script>
+</body>

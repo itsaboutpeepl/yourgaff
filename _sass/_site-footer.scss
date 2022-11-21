@@ -1,0 +1,15 @@
+.site-footer {
+    --bs-link-color: #{$white};
+    --bs-link-hover-color: #{$teal-200};
+    color: $white;
+    background-color: $blue-900;
+    box-shadow: 0 1000px 0 1000px $blue-900;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
